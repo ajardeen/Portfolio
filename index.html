@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="icon" type="image/png" href="/icons/title-icon.png">
+    <link rel="stylesheet" href="indexStyle.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-bar">
+            <div class="nav-left-wrapper">
+                <h2>AJARDEEN</h2>
+                <p>Developer</p>
+            </div>
+            <div class="nav-pill-wrapper">
+                <div class="nav-indicator-glow"></div>
+                <div class="nav-pill">
+                    <a href="#" class="nav-toggle">
+                        <div class="text-nav-toggle">Profile</div>
+                    </a>
+                    <a href="#skills" class="nav-toggle">
+                        <div class="text-nav-toggle">Skills</div>
+                    </a>
+                    <div class="nav-indicator-pill"></div>
+                </div>
+            </div>
+            <div class="nav-right-wrapper">
+                <a class="link" style="text-decoration: none; font-size: medium;"
+                    href="https://www.linkedin.com/in/s-mohamed-ajardeen/">linkedin <img src="icons/arrow.svg"
+                        alt="link"></a>
+                <a class="link" style="text-decoration: none;  font-size: medium;"
+                    href="/files/Mohamed Ajardeen Resume .pdf">Resume <img src="icons/arrow.svg" alt="link"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section  -->
+
+    <div class="hero-section animation-right">
+        <div class="self-intro-outer">
+            <div class="self-intro-card">
+                <div class="window"></div>
+                <section class="self">
+                    <div class="box-model-inner hero-left">
+                        <div class="text-hero-wrapper">
+                            HI
+                            <span>MY NAME IS</span>
+                            <div class="text-hero animation-right">
+                                <span> MOHAMED AJARDEEN</span>
+                                <span> Im Full Stack Developer</span>
+                            </div>
+                        </div>
+                        <div class="hero-message animation-right">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio harum perferendis
+                            <button ><a style="text-decoration: none; font-size: medium;"
+                                    href="/files/Mohamed Ajardeen Resume .pdf">Download CV</a></button>
+                        </div>
+                    </div>
+                    <div class="box-model-outer hero-right">
+                        <div class="box-model-inner hero-right-inner">
+                            <!-- profile image  -->
+                            <!-- <img src="icons/combined.jpg" alt="Photo"> -->
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="arrow" style="display: flex; justify-content: center;">
+        <img class="arrow-img" style=" width: 5vw;" src="/icons/down arrow.gif" alt="next">
+    </div>
+    <!-- Professional Skills  -->
+     <div id="skills" class="topic-heading">
+        <div class="icon-section-dot"></div>
+        <div class="animation-up">Professional Skills</div>
+     </div>
+    <section class="animation-up skills-banner animation-appear " >
+        
+        <div class="container box-model-outer">   
+        <div class="box-model-inner skills-inner">
+            <div class="spotlight-color"></div>
+                <div class="Language-banner">
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MYSQL</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!-- Projects  -->
+     <div class="topic-heading">
+        <div class="icon-section-dot"></div>
+        <div class="animation-up">Projects</div>
+     </div>
+    <section class="animation-up skills-banner animation-appear " >
+        
+        <div class="container box-model-outer">   
+        <div class="box-model-inner skills-inner">
+            <div class="spotlight-color"></div>
+                <div class="Language-banner">
+                    <ul>
+                        <li>projects cards</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- footer  -->
+     <section class="footer">
+         <div class="footer-left">
+            <p>© 2024 ajardeen's Portfolio. All rights reserved</p>
+           <p>Developed by Mohamed Ajardeen </p>
+         </div>
+         <div class="footer-right">
+                <p style="opacity: 0.5; margin-right: 20px;">Contact</p>
+                <a class="link" style="text-decoration: none; font-size: medium;"
+                    href="https://www.linkedin.com/in/s-mohamed-ajardeen/">linkedin <img src="icons/arrow.svg"
+                        alt="link"></a>
+                <a class="link" style="text-decoration: none;  font-size: medium;"
+                    href="/files/Mohamed Ajardeen Resume .pdf">Resume <img src="icons/arrow.svg" alt="link"></a>
+            </div>
+     </section>
+</body>
+<script src="indexScript.js"></script>
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance:'60px',
+        duration:2500,
+        delay:400
+     });
+     ScrollReveal().reveal('.animation-right',{delay:50,origin:'left'});
+     ScrollReveal().reveal('.animation-up',{delay:50,origin:'bottom'});
+</script>
+</html>
